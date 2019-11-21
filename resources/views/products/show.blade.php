@@ -11,7 +11,7 @@
         </h2>
         <div class="row">
             <div class="col-md-8">
-            <ul id="gallery" class="row no-padding gallery-list">
+            <!-- <ul id="gallery" class="row no-padding gallery-list">
                         <li class="col-md-12 no-padding"
                             data-responsive="{{ $product->getPhoto() }}"
                             data-src="{{ $product->getPhoto() }}">
@@ -37,7 +37,41 @@
                                 </li>
                             @endforeach
                         @endif
-            </div>
+            </div> -->
+            <?php $gallery = $product->getGallery() ?>
+                <div id="gallery" class="slider slider-for ">
+
+                @if (isset($gallery) && !empty($gallery))
+                            @foreach($gallery as $photo)
+                                <div
+                                    data-responsive="{{ $photo }}"
+                                    data-src="{{ $photo }}">
+                                    <div class="gallery-item big-img">
+                                        <a href="">
+                                            <img class="img-responsive"
+                                                 src="{{ $photo }}">
+                                        </a>
+                                    </div>
+                                </div>
+                            @endforeach
+                        @endif
+                </div>
+                <div class="slider slider-nav2">
+                     @if (isset($gallery) && !empty($gallery))
+                            @foreach($gallery as $photo)
+                                <div
+                                    data-responsive="{{ $photo }}"
+                                    data-src="{{ $photo }}">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img class="img-responsive"
+                                                 src="{{ $photo }}">
+                                        </a>
+                                    </div>
+                                </div>
+                            @endforeach
+                        @endif
+                </div>
             <!--gallery-->
 
             <div class="col-md-4">

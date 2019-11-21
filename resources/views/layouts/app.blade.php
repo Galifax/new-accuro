@@ -45,8 +45,9 @@
                             <a href="/contacts"> contact us</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
+
+                    <!-- <ul class="navbar-nav ml-auto">
+                        Authentication Links
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -75,7 +76,9 @@
                                 </div>
                             </li>
                         @endguest
-                    </ul>
+                    </ul> -->
+
+
                     <a href="" class="phone">+ 123 456 78 90</a>
                 </nav>
             </div>
@@ -90,7 +93,7 @@
             <!-- Footer -->
             <footer class="page-footer font-small unique-color-dark">
 
-                <div style="background-color: #6351ce;">
+                <div style="background-color: #7C0E0E;">
                     <div class="container">
 
                         <!-- Grid row-->
@@ -299,6 +302,23 @@
                 $('#gallery').lightGallery({
                     pager: true
                 });
+
+
+                $('.slider-for').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: '.slider-nav2'
+                    });
+                    $('.slider-nav2').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    asNavFor: '.slider-for',
+                    dots: true,
+                    arrows: false,
+                    focusOnSelect: true
+                    });
 
             });
         </script>

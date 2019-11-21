@@ -10,10 +10,30 @@
             3D-models</br>
             <span>Зарегестритуйтесь и скачайте</span>
         </h2>
+        <p>
+            
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+
+        </p>
         <div class="row">
             <div class="col-sm-12 col-md-5">
                 <form class="form" action="">
-
+                    <h3>Rege</h3>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
@@ -24,10 +44,6 @@
 
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
-
-                    <div class="input-group">
-                        <textarea rows="5" class="form-control" aria-label="With textarea"></textarea>
                     </div>
 
                     <button class="form-btn">
@@ -42,23 +58,23 @@
                 <table>
                     <tr>
                         <td>filename</td>
-                        <td><a href="#">download</a></td>
+                        <td><a href="#" download>download</a></td>
                     </tr>
                     <tr>
                         <td>filename</td>
-                        <td><a href="#">download</a></td>
+                        <td><a href="#"  download>download</a></td>
                     </tr>
                     <tr>
                         <td>filename</td>
-                        <td><a href="#">download</a></td>
+                        <td><a href="#"  download>download</a></td>
                     </tr>
                     <tr>
                         <td>filename</td>
-                        <td><a href="#">download</a></td>
+                        <td><a href="#"  download>download</a></td>
                     </tr>
                     <tr>
                         <td>filename</td>
-                        <td><a href="#">download</a></td>
+                        <td><a href="#"  download>download</a></td>
                     </tr>
                 </table>
 

@@ -36,7 +36,7 @@
                     </ul>
                     <style>
                         .categorys {
-                            background: #1D3047;
+                            background: #31202C;
                         }
 
                         .category-list {
@@ -47,7 +47,7 @@
 
                         .category-list li button,
                         .category-list li button:hover {
-                            color: #C9C8D4;
+                            color: #fff;
                             text-decoration: none;
                             font-weight: 600;
                             font-size: 16px;
