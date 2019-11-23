@@ -239,23 +239,16 @@ nav a:hover {
 }
 
 @media screen and (max-width:600px) {
-    .slider-title-fix {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 105vw 120px auto;
-        grid-template-areas: "l l l l l""t t t t t""p d d d n";
+    #slider{
+    .slider-title-fix,.slick-slider {
+        grid-template-columns: 19%;
+        grid-gap: 0;
+        grid-template-rows: 60px auto 70px;
+        grid-template-areas: 
+        "t t t t t"
+        "l l l l l"
+        "p d d d n";
     }
-
-    .slick-slider {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 105vw 120px auto;
-        grid-template-areas:
-            "l l l l l"
-            "t t t t t "
-            "p d d d n";
-    }
-    .slick-list,
-.slick-slide {
-    transform: none !important;
 }
 }
 

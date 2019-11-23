@@ -44,6 +44,9 @@
                         <li>
                             <a href="/contacts"> contact us</a>
                         </li>
+                        <li>
+                            <a href="/3d-model"> 3d-model</a>
+                        </li>
                     </ul>
 
                     <!-- <ul class="navbar-nav ml-auto">
