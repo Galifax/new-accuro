@@ -6,9 +6,9 @@
 
 @section('content')
     <div class="container">
-        <h2>
+        <!-- <h2>
             Home/product
-        </h2>
+        </h2> -->
         <div class="row">
             <div class="col-md-8">
             <!-- <ul id="gallery" class="row no-padding gallery-list">
@@ -71,6 +71,7 @@
                                 </div>
                             @endforeach
                         @endif
+                </div>
                 </div>
             <!--gallery-->
 
