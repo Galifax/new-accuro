@@ -17,7 +17,7 @@ class Product extends Model
     public function getProducts()
     {
         return self::orderBy('id', 'desc')
-            ->paginate(12);
+            ->paginate(36);
     }
 
     public function getProductBySlug($slug)
