@@ -26,6 +26,20 @@ footer a{
 .sub-title{
     color: #D1780B;
 }
+
+.page-item.active .page-link{
+    color: #D1780B;
+    background-color: #7C0E0E;
+    border-color: #7C0E0E;
+}
+.page-link{
+    color: #7C0E0E;
+    border: none;
+}
+
+.row nav{
+    margin: auto;
+}
 /* nav */
 
 nav {

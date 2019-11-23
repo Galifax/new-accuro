@@ -21,14 +21,6 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-
         </p>
         <div class="row">
             <div class="col-sm-12 col-md-5">
@@ -59,18 +51,6 @@
                     <tr>
                         <td>filename</td>
                         <td><a href="#" download>download</a></td>
-                    </tr>
-                    <tr>
-                        <td>filename</td>
-                        <td><a href="#"  download>download</a></td>
-                    </tr>
-                    <tr>
-                        <td>filename</td>
-                        <td><a href="#"  download>download</a></td>
-                    </tr>
-                    <tr>
-                        <td>filename</td>
-                        <td><a href="#"  download>download</a></td>
                     </tr>
                     <tr>
                         <td>filename</td>
