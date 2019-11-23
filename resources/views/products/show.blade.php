@@ -47,7 +47,7 @@
                                     data-responsive="{{ $photo }}"
                                     data-src="{{ $photo }}">
                                     <div class="gallery-item big-img">
-                                        <a href="">
+                                        <a href="#">
                                             <img class="img-responsive"
                                                  src="{{ $photo }}">
                                         </a>
@@ -63,7 +63,7 @@
                                     data-responsive="{{ $photo }}"
                                     data-src="{{ $photo }}">
                                     <div class="gallery-item">
-                                        <a href="">
+                                        <a href="#">
                                             <img class="img-responsive"
                                                  src="{{ $photo }}">
                                         </a>

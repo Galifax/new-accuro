@@ -477,8 +477,8 @@ td {
 }
 
 .product-title {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 28px;
+  font-weight: 500;
   padding: 0;
   margin-bottom: 20px;
   color: #D1780B;
@@ -486,17 +486,17 @@ td {
 
 .product-url {
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: 500;
   opacity: 0.9;
-  font-size: 18px;
+  font-size: 22px;
   color: #D1780B;
 }
 
 .price {
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: 500;
   opacity: 0.9;
-  font-size: 18px;
+  font-size: 22px;
   color: #7C0E0E;
 }
 

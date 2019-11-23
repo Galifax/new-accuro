@@ -42,10 +42,10 @@
                             <a href="/products">products</a>
                         </li>
                         <li>
-                            <a href="/contacts"> contact us</a>
+                            <a href="/3d-model"> 3d-model</a>
                         </li>
                         <li>
-                            <a href="/3d-model"> 3d-model</a>
+                            <a href="/contacts"> contact us</a>
                         </li>
                     </ul>
 
