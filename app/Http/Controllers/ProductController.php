@@ -22,4 +22,24 @@ class ProductController extends Controller
         return view('products.show', compact('product'));
     }
 
+    public function store($id, Request $request)
+    {
+        $product = Product::where('id', $id)
+            ->firstOrFail();
+
+        $psv = $request->PropertyStaticValue;
+
+        $psvi = [];
+        foreach($psv as $item) {
+            foreach($item as $value) {
+                $psvi[] = (int) $value;
+            }
+        }
+
+        $product->properties()->sync($psvi);
+        $product->save();
+
+        return redirect()->back()->with('message', 'Свойства сохранены');;
+    }
+
 }

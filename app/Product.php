@@ -7,6 +7,11 @@ use Voyager;
 
 class Product extends Model
 {
+    public function properties()
+    {
+        return $this->belongsToMany(PropertyStaticValue::class);
+    }
+    
     public function getNewProducts()
     {
         return self::orderBy('id', 'desc')

@@ -92,8 +92,8 @@
                         @endforeach
                     @endif
                 </div>
+                {{ $products->links() }}
             </div>
-            {{ $products->links() }}
         </div>
 </div>
 @endsection
