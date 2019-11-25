@@ -40,6 +40,23 @@ footer a{
 .row nav{
     margin: auto;
 }
+
+.models-3d-text{
+    margin-bottom: 60px;
+}
+
+.download-3d{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        text-align: center;
+        span{
+            font-size: .5em
+        }
+    }
+}
 /* nav */
 
 nav {
