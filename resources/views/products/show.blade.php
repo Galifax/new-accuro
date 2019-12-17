@@ -95,23 +95,14 @@
                 <h2 class="product-title text-center">
                     Technical spec
                 </h2>
+                <ul class="specific">
+                    @foreach($props as $psv)
+                    <li><span> {{ $psv->name }}:</span> {{ $psv->psv[0]->name }}</li>
+                    @endforeach
+                </ul>
                 <div>
                     {!! $product->characteristics !!}
                 </div>
-{{--                <ul class="specific">--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                    <li><span> Model:</span> Nimbus 2000</li>--}}
-{{--                </ul>--}}
             </div>
 
             <div class="col-md-6">

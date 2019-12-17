@@ -22,4 +22,16 @@ class Property extends Model
             }])
             ->get();
     }
+
+    public static function getPropPsv($id)
+    {
+        $property = self::whereHas('psv', $psv = function($q) use($id) {
+               $q->whereHas('products', function($q) use($id) {
+                   $q->where('products.id', $id);
+               });
+            })
+            ->with(['psv' => $psv])
+            ->get();
+        return $property;
+    }
 }

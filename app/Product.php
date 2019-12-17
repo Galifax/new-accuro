@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Property;
 use Voyager;
 
 class Product extends Model
@@ -38,12 +39,15 @@ class Product extends Model
 
     public function getGallery()
     {
-        $gallery = json_decode($this->gallery);
+        $gallery = json_decode($this->gallery, true);
         if (isset($gallery) && !empty($gallery)) {
             foreach($gallery as $k => $item) {
                 $gallery[$k] = Voyager::image($item);
             }
         }
+        array_unshift($gallery, $this->getPhoto());
+
+//        ddd($gallery);
         return $gallery;
     }
 
