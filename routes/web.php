@@ -20,6 +20,8 @@ Route::get('/3d-model', 'ModelController@index')->name('models');
 Route::get('/technical-information', 'TechnicalInformationController@index')->name('info');
 Route::post('/product/property/save/{id}', 'ProductController@store');
 Route::get('/delete-duble-image', 'ProductController@deleteDubleImage');
+Route::get('/story', 'StoryController@index');
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
