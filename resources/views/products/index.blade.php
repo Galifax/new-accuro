@@ -34,38 +34,6 @@
                             @endforeach
                         @endif
                     </ul>
-                    <style>
-                        .categorys {
-                            background: #31202C;
-                        }
-
-                        .category-list {
-                            padding: 0px;
-                        }
-
-                        .category-list li {}
-
-                        .category-list li button,
-                        .category-list li button:hover {
-                            color: #fff;
-                            text-decoration: none;
-                            font-weight: 600;
-                            font-size: 16px;
-                            white-space: inherit;
-                        }
-
-                        .category-list .lvl-2 {}
-
-                        .category-list .lvl-2 li {}
-
-                        .category-list .lvl-2 li a {
-                            color: #808081;
-                            text-decoration: none;
-                            font-size: 16px;
-                        }
-                    </style>
-
-
                 </div>
             </div>
 

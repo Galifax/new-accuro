@@ -10,7 +10,7 @@
             Home/product
         </h2> -->
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
             <!-- <ul id="gallery" class="row no-padding gallery-list">
                         <li class="col-md-12 no-padding"
                             data-responsive="{{ $product->getPhoto() }}"
@@ -75,13 +75,13 @@
                 </div>
             <!--gallery-->
 
-            <div class="col-md-4">
+            <div class="col-md-5" style="font-size: 1.2em;">
                 <h1 class="product-title">
                     {{ $product->name }}
                 </h1>
-                <p class="product-url">
+                <!-- <p class="product-url">
                     Article: {{ $product->sku }}
-                </p>
+                </p> -->
                 <p class="price">
                     $ {{ $product->price }}
                 </p>
