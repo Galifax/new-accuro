@@ -45,6 +45,25 @@ footer a {
   margin: auto;
 }
 
+.models-3d-text {
+  margin-bottom: 60px;
+}
+
+.download-3d {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-3d h3 {
+  text-align: center;
+}
+
+.download-3d h3 span {
+  font-size: 0.5em;
+}
+
 /* nav */
 
 nav {
@@ -178,6 +197,7 @@ nav a:hover {
   font-weight: bold;
   font-size: calc(15px + 2vmin);
   color: #D1780B;
+  text-shadow: 1px 1px #000;
   grid-area: t;
   top: 50%;
   position: relative;
@@ -307,6 +327,7 @@ nav a:hover {
   width: auto;
   height: auto;
   max-height: 350px;
+  background: #fff;
 }
 
 .block-bg-img {
@@ -334,7 +355,7 @@ nav a:hover {
 
 .title-block {
   background: url("/images/fotomain.png") top center no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 85vmin;
   min-height: 530px;
 }
@@ -485,6 +506,7 @@ td {
      object-fit: cover;
   min-height: 100%;
   width: 100%;
+  background: #fff;
 }
 
 .gallery-item.big-item {
@@ -512,7 +534,7 @@ td {
   font-weight: 500;
   opacity: 0.9;
   font-size: 22px;
-  color: #7C0E0E;
+  color: #fff;
 }
 
 .product-descr {
@@ -535,5 +557,34 @@ td {
 
 .specific li span {
   color: #fff;
+}
+
+.categorys {
+  background: #31202C;
+}
+
+.category-list {
+  padding: 0px;
+}
+
+.category-list li button,
+.category-list li button:hover {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  white-space: inherit;
+}
+
+.category-list .lvl-2 li a {
+  color: #808081;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.category-list .lvl-2 li a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
 }
 
