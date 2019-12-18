@@ -371,6 +371,7 @@ nav a:hover {
 }
 
 .title-btn {
+  display: inline-block;
   color: #fff;
   background: #7C0E0E;
   border-radius: 50px;

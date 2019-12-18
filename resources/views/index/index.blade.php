@@ -10,9 +10,9 @@
             <h2 class="title">
                 harmony of design and quality
             </h2>
-            <button class="title-btn">
+            <a href="/story" class="title-btn">
                 Read more
-            </button>
+                </a>
         </div>
     </div>
 
