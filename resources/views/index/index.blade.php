@@ -8,7 +8,7 @@
 <div class="title-block">
         <div class="container" style="padding-left: 5vw;">
             <h2 class="title">
-                harmony of design and quality
+             Harmony of design
             </h2>
             <a href="/story" class="title-btn">
                 Read more
@@ -57,35 +57,27 @@
                 <div class="col-xs-12 col-md-6">
                     <div class="row">
                         <div class="col-md-12 col-lg-6">
-                            <h3 class="sub-title">title</h3>
+                            <h3 class="sub-title">Сервис</h3>
                             <p class="descr">
-                                ipsum dolor sit amet consectetur, adipisicing elit. Eius dolores asperiores fuga
-                                assumenda illum? Perspiciatis ab blanditiis ut saepe, beatae vitae temporibus?
-                                Molestiae, tempora ad. Tenetur optio illum itaque porro?
+                            Команда наших инженеров возьмёт на себя все трудности расчетов и планирования при выборе нового радиатора. Мы сделаем всё, чтобы понравившаяся модель служила Вам долгие годы и не теряла своей актуальности.
                             </p>
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <h3 class="sub-title">title</h3>
+                            <h3 class="sub-title">Качество</h3>
                             <p class="descr">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam explicabo quas, totam
-                                aspernatur reiciendis culpa asperiores saepe maiores blanditiis voluptatum? Deleniti sit
-                                repudiandae reiciendis repellat molestias, unde consequatur id officiis. Lorem
+                            Ручная сборка и улучшенные стандарты качества делают наши радиаторы долговечными и надёжными, а исполнение в нержавеющей стали отличает их от своей аналогов. 
                             </p>
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <h3 class="sub-title">title</h3>
+                            <h3 class="sub-title">Индивидуальный подход</h3>
                             <p class="descr">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam explicabo quas, totam
-                                aspernatur reiciendis culpa asperiores saepe maiores blanditiis voluptatum? Deleniti sit
-                                repudiandae reiciendis repellat molestias, unde consequatur id officiis. Lorem
+                            Возможность производства под заказ позволяет создать эксклюзивную модель, согласно Вашим вкусовым предпочтениям и желаемым размерам. 
                             </p>
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <h3 class="sub-title">title</h3>
+                            <h3 class="sub-title">Продукт современности</h3>
                             <p class="descr">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam explicabo quas, totam
-                                aspernatur reiciendis culpa asperiores saepe maiores blanditiis voluptatum? Deleniti sit
-                                repudiandae reiciendis repellat molestias, unde consequatur id officiis. Lorem
+                            Выполненные в последних тенденциях, наши радиаторы сочетают в себе непревзойдённую функциональность и запоминающуюся эстетику исполнения. 
                             </p>
                         </div>
                     </div>

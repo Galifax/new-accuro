@@ -12,37 +12,31 @@
         </h2>
 
         <div class="models-3d-text">
+        <p>  
+        Для того, чтобы нашим клиентам и партнёрам было ещё удобнее, мы создали специальный каталог с 3D-моделями, с помощью которого Вы сможете визуализировать любой радиатор, тщательно рассмотрев его в трёх измерениях. 
+        </p>
         <p>
-            
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus facere minima accusamus doloribus ut? Perspiciatis quo dignissimos maxime, et explicabo officia ullam perferendis omnis quod tempora dolor, minus harum eaque.
+        На сегодняшний день, 3D-модели необходимы для построения любых дизайн-проектов и позволяют грамотно подобрать нужный радиатор в готовый дизайн-проект, понимая уникальную текстуру и специфику каждого. 
         </p>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-5">
                 <form class="form" action="">
-                    <h3>Rege</h3>
+                    <h3>Заказать консультацию</h3>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Ваше Имя" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
 
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Номер телефона" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
 
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
 
                     <button class="form-btn">
-                        confirm
+                        send
                     </button>
                 </form>
             </div>

@@ -7,23 +7,22 @@
 @section('content')
 <div class="container">
         <h2 class="page-title">
-            How to contact us</br>
-            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
+            <span>Для связи с нами поделитесь контактными данными ниже, заполнив форму.</span>
         </h2>
         <div class="row">
             <div class="col-sm-12 col-md-5">
                 <form class="form" action="">
 
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Ваше Имя" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
 
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Номер телефона" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
 
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
 
                     <div class="input-group">
@@ -42,28 +41,12 @@
                 <table>
                     <tr>
                         <td>Address</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    </tr>
-                    <tr>
-                        <td>telephone</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    </tr>
-                    <tr>
-                        <td>Fax</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    </tr>
-                    <tr>
-                        <td>gsm</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    </tr>
-                    <tr>
-                        <td>e-mail</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
+                        <td>Адрес: Киев, ул. Шота Руставели, 32, 0 этаж </td>
                     </tr>
                 </table>
 
                 <p class="work-time">
-                    work time:<br> Lorem, ipsum dolor sit amet consectetur<br> Lorem, ipsum dolor sit amet consectetur
+                Рабочие часы: <br> с 10.00 до 18.00
                 </p>
 
             </div>
