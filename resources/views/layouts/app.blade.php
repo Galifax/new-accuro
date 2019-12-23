@@ -19,7 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
@@ -153,7 +153,7 @@
                             <!-- Content -->
                             <h6 class="text-uppercase font-weight-bold">Company name</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>Accuro-Korle Ukraine</p>
+                            <p>Akkuro Korle Ukraine</p>
                         </div>
                         <!-- Grid column -->
 
@@ -185,7 +185,7 @@
                             <h6 class="text-uppercase font-weight-bold">Useful links</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <a href="#!">история компании</a>
+                                <a href="#!">История компании</a>
                             </p>
                             <p>
                                 <a href="http://www.accuro-korle.com/" target="_blank">Акура-Корле Турция </a>
@@ -200,8 +200,8 @@
                             <h6 class="text-uppercase font-weight-bold">Contact</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                               Киев, ул. Шота Руставели, 32, 0 этаж
-                               </p>
+                                Киев, ул. Шота Руставели, 32, 0 этаж
+                            </p>
                         </div>
                         <!-- Grid column -->
 
@@ -232,6 +232,28 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js">
         </script>
         <script>
+            // форма загрузки
+            (function () {
+                window.addEventListener('load', function () {
+                    var forms = document.getElementsByClassName('needs-validation');
+
+                    var validation = Array.prototype.filter.call(forms, function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+
+                            }
+                            if (form.checkValidity() === true) {
+                                console.log('validated');
+                                document.getElementById('invisibleDownload').click();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+            //   ................ 
             $(document).ready(function () {
                 $('.index-slider').slick({
                     slidesToShow: 3,
@@ -286,6 +308,9 @@
 
                 $('#gallery').lightGallery({
                     pager: true
+                    thumbnail: true,
+                    animateThumb: false,
+                    showThumbByDefault: false
                 });
 
 
@@ -295,17 +320,18 @@
                     arrows: false,
                     fade: true,
                     asNavFor: '.slider-nav2'
-                    });
-                    $('.slider-nav2').slick({
+                });
+                $('.slider-nav2').slick({
                     slidesToShow: 5,
                     slidesToScroll: 1,
                     asNavFor: '.slider-for',
                     dots: true,
                     arrows: false,
                     focusOnSelect: true
-                    });
+                });
 
             });
+
         </script>
 </body>
 
