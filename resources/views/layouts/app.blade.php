@@ -307,8 +307,7 @@
                 // lightgall
 
                 $('#gallery').lightGallery({
-                    pager: true
-                    thumbnail: true,
+                    pager: true,
                     animateThumb: false,
                     showThumbByDefault: false
                 });
