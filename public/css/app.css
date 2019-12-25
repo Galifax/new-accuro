@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+#invisibleDownload {
+  display: none;
+}
+
 ul {
   list-style: none;
 }
@@ -338,8 +342,9 @@ nav a:hover {
 
 .block-bg-img::before {
   content: "";
-  background-image: url("/images/fotoabout.png");
+  background-image: url("/images/4-title-right.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   position: absolute;
   width: 140%;
