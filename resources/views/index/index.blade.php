@@ -94,58 +94,17 @@
         <section id="index-gallery">
             <h2 class="gallery-title">Gallery</h2>
             <div class="row">
+                @foreach(\App\Gallery::main() as $photo)
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="gallery-item">
                         <a href="/gallery">
-                            <img src="/images/g/1.jpg" alt="">
+                            <img src="{{ $photo->getImage() }}" alt="">
                         </a>
                     </div>
                 </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-item">
-                        <a href="/gallery">
-                            <img src="/images/g/2.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-item">
-                        <a href="/gallery">
-                            <img src="/images/g/3.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-item">
-                        <a href="/gallery">
-                            <img src="/images/g/4.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-item">
-                        <a href="/gallery">
-                            <img src="/images/g/5.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-item">
-                        <a href="/gallery">
-                            <img src="/images/g/6.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-item">
-                        <a href="/gallery">
-                            <img src="/images/g/7.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
+                @endforeach
             </div>
+        </section>
     </div>
-    </section>
-    </div>
+</div>
 @endsection

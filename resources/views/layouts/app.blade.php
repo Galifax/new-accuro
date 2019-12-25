@@ -163,18 +163,11 @@
                             <!-- Links -->
                             <h6 class="text-uppercase font-weight-bold">Top Products</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            @foreach(\App\Product::topProducts() as $product)
                             <p>
-                                <a href="#!">Korle</a>
+                                <a href="{{ route('product.show', $product->slug) }}">{{ $product->name }}</a>
                             </p>
-                            <p>
-                                <a href="#!">Cadence</a>
-                            </p>
-                            <p>
-                                <a href="#!">Bermuda</a>
-                            </p>
-                            <p>
-                                <a href="#!">Yarrow</a>
-                            </p>
+                            @endforeach
                         </div>
                         <!-- Grid column -->
 
