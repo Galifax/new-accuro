@@ -46,7 +46,7 @@
 
             <div class="slider-title-fix">
                 <h2 class="slider-title">
-                    <span>try somthing new</span><br>
+                    <span>try something new</span><br>
                     New model
                 </h2>
             </div>

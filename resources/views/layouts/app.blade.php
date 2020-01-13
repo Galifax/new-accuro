@@ -33,7 +33,7 @@
             <div class="container">
                 <nav>
                     <a class="logo" href="/index.html">
-                        <img src="" alt="">logo</a>
+                        <img src="" alt=""></a>
                     <ul>
                         <li>
                             <a href="/">home</a>
