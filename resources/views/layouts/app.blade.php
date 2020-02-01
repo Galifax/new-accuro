@@ -32,8 +32,8 @@
         <header>
             <div class="container">
                 <nav>
-                    <a class="logo" href="/index.html">
-                        <img src="" alt="">logo</a>
+                    <a style="margin:auto" class="logo" href="/">
+                        <img style="max-width:240px" src="/images/logo.png" alt=""></a>
                     <ul>
                         <li>
                             <a href="/">home</a>
