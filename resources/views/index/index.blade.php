@@ -31,7 +31,7 @@
                             </div>
                             <div class="text-area">
                                 <h3 class="product-title">{{ $product->name }}</h3>
-                                <p class="product-price">$ {{ $product->price }}</p>
+                                <p class="product-price">€{{ $product->price }}</p>
                                 <span class="circle">
                                             <a href="{{ route('product.show', ['slug' => $product->slug]) }}">
                                             detail
