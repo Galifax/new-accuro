@@ -55,4 +55,10 @@ class Product extends Model
     {
         return Voyager::image($this->technical_drawing);
     }
+
+    static function topProducts()
+    {
+        return self::where('mark_hit', 1)
+            ->get();
+    }
 }
