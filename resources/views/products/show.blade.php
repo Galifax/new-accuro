@@ -83,7 +83,7 @@
                     Article: {{ $product->sku }}
                 </p> -->
                 <p class="price">
-                € {{ $product->price }}
+                {{ $product->before_price_text }} € {{ $product->price }}
                 </p>
                 <p class="product-descr">
                     {!! $product->content !!}
