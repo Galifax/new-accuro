@@ -12,7 +12,12 @@ class Product extends Model
     {
         return $this->belongsToMany(PropertyStaticValue::class);
     }
-    
+
+    public function category()
+    {
+        return $this->hasOne(Category::class, 'id', 'category_id');
+    }
+
     public function getNewProducts()
     {
         return self::orderBy('id', 'desc')
@@ -60,5 +65,17 @@ class Product extends Model
     {
         return self::where('mark_hit', 1)
             ->get();
+    }
+
+    public function getProps()
+    {
+        $properties = $this->properties;
+
+        $props = '';
+        foreach($properties as $prop) {
+            $props .= $prop->property->name.'|'.$prop->name.PHP_EOL;
+        }
+
+        return $props;
     }
 }

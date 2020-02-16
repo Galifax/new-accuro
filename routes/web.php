@@ -25,6 +25,8 @@ Route::get('/story', 'StoryController@index');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+    Route::get('/export', 'ExportController@index');
+    Route::post('/export/download', 'ExportController@export');
 });
 
 Auth::routes();

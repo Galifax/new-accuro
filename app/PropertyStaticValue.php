@@ -15,6 +15,11 @@ class PropertyStaticValue extends Model
         return $this->belongsToMany(Product::class);
     }
 
+    public function property()
+    {
+        return $this->hasOne(Property::class, 'id', 'property_id');
+    }
+
     public static function getCheckProduct($id, $productId)
     {
         $psv = self::where('property_static_values.id', $id)
