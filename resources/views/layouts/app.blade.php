@@ -216,6 +216,19 @@
             <!-- <img width="100%" src="/images/foter.png" alt=""> -->
         </footer>
 
+        <style>
+            .phone {
+                margin: auto;
+            }
+
+            @media screen and (max-width:780px) {
+                #titles {
+                    padding-top: 40px;
+                }
+            }
+
+        </style>
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
