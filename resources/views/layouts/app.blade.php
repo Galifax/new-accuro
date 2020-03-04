@@ -192,8 +192,11 @@
                             <!-- Links -->
                             <h6 class="text-uppercase font-weight-bold">Contact</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>
+                            <!-- <p>
                                 Киев, ул. Шота Руставели, 32, 0 этаж
+                            </p> -->
+                            <p>
+                            <a href="tel:0442277202">044 22 77 202</a>
                             </p>
                         </div>
                         <!-- Grid column -->
